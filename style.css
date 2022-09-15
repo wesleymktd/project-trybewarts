@@ -16,28 +16,35 @@
   display: flex;
   align-items: center;
 }
+
 main {
   display: flex;
   flex-wrap: wrap;
 }
+
 #evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
 }
+
 #trybewarts-forms-logo {
   height: 500px;
 }
-#input-name{
+
+#input-name {
   width: 50%;
 }
-#input-lastname{
+
+#input-lastname {
   width: 50%;
 }
-#divName{
+
+#divName {
   display: flex;
 }
-#avaliation{
+
+#avaliation {
   display: flex;
   justify-content: space-evenly;
 }
