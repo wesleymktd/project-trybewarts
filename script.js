@@ -1,6 +1,9 @@
 const getEmail = document.querySelector('.email');
 const getPassword = document.querySelector('.password');
 const getButton = document.querySelector('button');
+const btn = document.querySelector('#submit-btn');
+const checkSubmit = document.querySelector('#agreement');
+
 function validationUser() {
   const mailVerify = getEmail.value;
   const passVerify = getPassword.value;
