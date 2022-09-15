@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 .header {
   display: flex;
   width: 100%;
@@ -32,14 +31,6 @@ main {
   height: 500px;
 }
 
-#input-name {
-  width: 50%;
-}
-
-#input-lastname {
-  width: 50%;
-}
-
 #divName {
   display: flex;
 }
@@ -47,4 +38,15 @@ main {
 #avaliation {
   display: flex;
   justify-content: space-evenly;
+}
+
+#footer{
+  text-align: center;
+  background-color: rgb(50, 167, 145);
+}
+
+#submit-btn{
+  color: black;
+  background-color: rgb(153, 198, 190);  
+  width: 150px;
 }

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
 </head>
 <body>
   <header class="header">
@@ -18,13 +19,13 @@
     </form>
   </header>    
   <main>
-  <form id="evaluation-form">
+  <form id="evaluation-form" class="form-control">
     <div id="divName">
       <input id="input-name" type="name" placeholder="Nome">
       <input id="input-lastname" type="name" placeholder="Sobrenome">
     </div>
     <div>
-      <input id="input-email" type="email" placeholder="Email">
+      <input id="input-email" type="email" placeholder="Email" >
       <select name="" id="house">
         <option id="gitnoria-house" value="Gitnória">Gitnória</option>
         <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
@@ -104,11 +105,13 @@
       <label id="label-infos" for="">Você concorda com o uso das informações acima?</label>
       <input type="checkbox" name="" id="agreement">
     </div>
-    <button type="submit" id="submit-btn">Enviar</button>
+    <button type="submit" id="submit-btn" disabled>Enviar</button>
   </form>
-  
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="">
   </main>
+  <footer id="footer">
+    Direitos reservados à Trybewarts©
+  </footer>
  <script src="script.js"></script>  
 </body>
 
