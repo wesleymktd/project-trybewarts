@@ -1,8 +1,8 @@
 ## 🧐 Sobre
 
-<h4 align="left"> 
+<p align="left"> 
 	Neste projeto, foi desenvolvido uma página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes poderão enviar seus feedbacks sobre ela. O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling
-</h4>
+</p>
 
 
 ## ⚒ Instalando <a name = "installing"></a>
